@@ -1,0 +1,53 @@
+.user-list-container {
+    padding: 20px;
+  }
+  
+  input {
+    top: 191px;
+    left: 907px;
+    width: 298px;
+    height: 55px;
+    background: #5E5E5E82 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 4px 0px #00000040;
+    mix-blend-mode: normal;
+    border: 1px solid #595959;
+    opacity: 0.4;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  
+
+.search-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.search-box i {
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

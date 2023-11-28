@@ -1,0 +1,168 @@
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    height: 80px; 
+    width: 500px;
+    border-radius: 20px;
+    margin-top: 800px;
+  }
+  
+  .box-icons {
+    display: flex;
+    gap: 150px;
+    
+  }
+  
+  .footer-icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+
+  .details-box {
+  
+    position: absolute;
+    top: 170px;
+    left: 710px;
+    
+    width: 500px;
+    height: 600px;
+    background: #5E5E5E82;
+    box-shadow: inset 0px 4px 0px #00000040;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    
+    
+    
+  }
+
+  .day-container {
+    align-items: center;
+    margin-bottom: 2px; 
+  }
+  
+  .day-container p {
+    padding-top: 20px;
+  }
+  
+  .thin-box {
+    width: 40px; 
+    height: 10px; 
+    background: green; 
+    margin-right: 0px; 
+    padding-left: 10px;
+    border-radius: 20px;
+    top: 10px;
+    border-color: #36A546;
+  }
+
+  .thin-box-1 {
+    width: 100px;
+    height: 10px; 
+    background-color: green; 
+    margin-right: 0px; 
+    padding-left: 10px;
+    top: 10px;
+    border-radius: 20px;
+
+  }
+
+
+  .thin-box-2 {
+    width: 120px; 
+    height: 10px; 
+    background-color: green; 
+    margin-right: 0px; 
+    padding-left: 10px;
+    top: 10px;
+    border-radius: 20px;
+
+  }
+
+  .thin-box-3 {
+    width: 80px;
+    height: 10px;
+    background-color: green;
+    margin-right: 0px;
+    padding-left: 10px;
+    top: 10px;
+    border-radius: 20px;
+
+  }
+
+  
+
+  .thin-box-4 {
+    width: 100px; 
+    height: 10px;
+    background-color: green; 
+    margin-right: 0px;
+    padding-left: 10px;
+    top: 10px;
+    border-radius: 20px;
+
+  }
+
+
+  .thin-box-5 {
+    width: 70px;
+    height: 10px; 
+    background-color: green; 
+    margin-right: 0px; 
+    padding-left: 10px;
+    top: 10px;
+    border-radius: 20px;
+
+  }
+
+
+  .logo-container {
+    position: absolute;
+    top: 20px; 
+    left: 50%;
+    transform: translateX(-50%); 
+  }
+  
+  .logo-container img {
+    top: 102px;
+    left: 572px;
+    width: 71px;
+    height: 70px;
+    mix-blend-mode: normal;
+    opacity: 1;
+  }
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .logo {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+  }
+
+  input,
+  button {
+    height: 38px;
+    margin-bottom: 8px;
+  }
+  .details-box {
+    max-width: 100%; 
+  }
+
+}
